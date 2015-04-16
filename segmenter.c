@@ -48,6 +48,9 @@
 #define dump_format av_dump_format
 
 #define avformat_open_input av_open_input_file
+#endif
+
+#ifndef URL_WRONLY
 #define URL_WRONLY  AVIO_FLAG_WRITE
 #endif
 
